@@ -1,0 +1,704 @@
+ body{
+	   font-family:Arial, Helvetica, sans-serif;;
+	 }
+	 .back-color{
+	   min-height:666px;
+	    background-color:rgba(11,7,22,0.7);
+	 }
+	 .section-background{
+	     min-height:666px;
+	     background-image:url("image/1.jpg");
+		 background-position:center;
+		 background-size:cover;
+	 }
+
+	.top-gap{
+	 min-height:90px;
+	 color:white;
+	 line-height:47px;
+	 letter-spacing:1px;
+	 
+	}
+	
+	.toggle{
+		float:right;
+		padding:10px 20px;
+		box-sizing:border-box;
+		display:none;
+		color:white;
+	}
+	nav ul{
+	width:60%;
+	float:right;
+	
+}
+   nav ul li{
+	list-style-type:none;
+	display:inline-block;
+	padding:10px;	
+	
+}
+
+ nav ul li a{
+	 color:white;
+	 display:block;
+	 text-decoration:none;
+ }
+ nav ul li a:hover{
+	 text-decoration:none;
+ }
+	
+	.heading-text{
+	   padding-top:30px;
+	  
+	}
+	.heading-text h1{
+	   font-size:60px;
+	    color:#bdbfc1;
+	}
+	.head p{
+	   font-size:25px;
+	   font-weight:bold;
+	   color:#b7e5e5;
+	}
+	.head{
+	 
+	 padding:10px;
+	 border-bottom:1px solid white;
+	 margin:auto;
+	 width:80%;
+	}
+	.paragraph-text{
+		margin-top:10px;
+		color:#bdbfc1;
+		font-size:15px;
+		letter-spacing:1px;
+	}
+	
+	.social-icon{
+		padding-top:40px;
+		
+		
+	}
+	.icon-outline{
+		float:left;
+		border-radius:50%;
+	   height:50px;
+	   width:50px;
+	   padding:10px;
+	    background:linear-gradient(red,black,black);
+	   transition:box-shadow .6s;
+	    
+	}
+	.social-icon a{
+		color:white;
+
+	}
+	.icon-outline:hover{
+	   box-shadow:0px 0px 20px 3px #e08708;
+	}
+	.icons{
+	  
+	  min-height:50px;
+	  width:40%;
+	  margin:auto;
+	  
+	  
+	}
+	.about{
+	    min-height:450px;
+		padding-top:70px;
+		
+	}
+	.heading{
+
+		text-align:center;
+		font-weight:bold;
+		font-size:50px;
+	}
+	.about-box{
+		margin-top:35px;
+		
+	}
+	.about-box i{
+		color:#969ace;
+		
+	}
+	.about-me{
+	padding-top:100px;
+	
+	}
+	.photo-box{
+	      margin:auto;
+		height:250px;
+		width:250px;
+		background:linear-gradient(white,black);
+		border-radius:100%;
+	}
+	.photo{
+	    margin-left:20px;
+		padding:5px;
+		height:250px;
+		width:250px;
+		background-color:white;
+		border-radius:100%;
+		 box-shadow:7px 0px 11px -4px black;
+	}
+	.myimg{
+		
+		border-radius:100%;
+	}
+	.about-text{
+		text-align:center;
+		letter-spacing:1px;
+		margin-top:20px;
+		font-weight:bold;
+		color:#48495b;
+		
+	}
+	
+	.course
+	{	float:right;
+		width:15%;
+		background-color:#626263;
+		height:30px;
+		color:white;
+		line-height:30px;
+		
+	}
+	.progressbar{
+		float:right;
+		padding:3px;
+		height:30px;
+		width:60%;
+		background-color:#f4f5fc;
+
+	}
+	
+	.progress
+	{	
+		background-color:#c4c4c6 !important;
+		height:24px !important;
+		color:white;
+	}
+	
+	
+	.clearfix{
+		clear:both;
+	}
+	
+	.work-sec{
+		min-height:600px;
+		background-image:url('image/2.jpg');
+		background-position:center;
+		background-size:cover;
+		color:white;
+		
+	
+	}
+	.backcolor{
+	
+			min-height:600px;
+			background-color:rgba(0,20,30,0.8);
+	}
+	.section-head{
+	    margin-top:100px;
+		letter-spacing:2px;
+		
+	}
+	.section-head h1{
+		font-size:50px;
+		color:white;
+	}
+	
+	.work-img{
+		height:250px;
+		overflow:hidden;
+		
+	}
+	.viewwork{
+		background-color:white;
+		height:250px;
+		transition:margin-top 0.5s;
+	}
+	.work-img:hover .viewwork{
+		margin-top:-250px;
+		
+	}
+	.projectimg{
+		width:100%;
+		height:250px;
+	}
+	.work-img a{
+		
+		padding:10px 20px;
+		position:relative;
+		top:100px;
+		left:60px;
+		border:1px solid white;
+		background-color:grey;
+		color:white;
+		
+		
+		
+	}
+	.work-img a:hover{
+		text-decoration:none;
+		background-color:black;
+		color:white;
+		
+	}
+	#bootstrapproject{
+		display:none;
+	}
+	#javascriptproject{
+		display:none;
+	}
+	#angularproject{
+		display:none;
+	}
+	.contact-sec{
+		 background-color:#0b0716;        
+	}
+	.input-box input[type=text]{
+		border-radius:5px;
+		background-color:transparent;
+		border:1px solid white;
+		color:white;
+		letter-spacing:2px;
+		}
+	
+	.input-box textarea{
+		border-radius:5px;
+		background-color:transparent;
+		border:1px solid white;
+		color:white;
+		letter-spacing:2px;
+	}
+	
+	.letstalk-head{
+		margin-top:100px;
+		color:white;
+		padding:20px;
+		letter-spacing:2px;
+	}
+	.letstalk-text{
+		color:white;
+		padding:20px;
+		letter-spacing:2px;
+	}
+	
+	.letstalk-text a{
+	   color:orange;
+	   font-size:15px;
+	   text-decoration:none;
+	}
+	
+	
+	
+@media screen and (min-width:1px) and (max-width:767px){
+	
+	
+	
+	
+	.top-gap{
+	     display:none;
+	   }
+	   .logo-nav{
+		   
+		   margin-top:20px;
+	   }
+	   .section-background{
+	     min-height:450px;
+	     background-image:url("image/1.jpg");
+		 background-position:center;
+		 background-size:cover;
+	 }
+	  .back-color{
+	   min-height:450px;
+	   background-color:rgba(11,7,22,0.7);
+	 }
+
+.img{
+	     width:80px;
+	     height:80px;
+		
+	 }
+	 
+	 .toggle{
+		 display:block;
+		 cursor:pointer;
+	 }
+	  nav ul{
+		 display:none;
+		 width:100%;
+		 border-bottom-left-radius:15px;
+		 border-bottom-right-radius:15px;
+		 float:none;
+		 padding:0px;
+		 background-color:rgba(11,7,22,1);
+		 
+	 }
+	 nav ul li{
+		display:block;
+		border-bottom:1px dotted;
+		transition:background-color 1s;
+		 
+	 }
+	  nav ul li:hover{
+		 
+		background-color:green;
+	 
+	 }
+	  
+	 nav ul li a:hover{
+		 
+		color:white;
+				 
+		 
+	 }
+    .active{
+		display:block;
+	}
+
+	 .heading-text{
+	   padding-top:10px;
+	  
+	}
+	.heading-text h1{
+	   font-size:25px;
+	    color:#bdbfc1;
+	}
+	.head p{
+	   font-size:12px;
+	   font-weight:bold;
+	   color:#b7e5e5;
+	   letter-spacing:1px;
+	}
+	.head{
+	 
+	 padding:10px;
+	 border-bottom:1px solid white;
+	 margin:auto;
+	 width:80%;
+	}
+	.paragraph-text{
+		margin-top:10px;
+		color:#bdbfc1;
+		font-size:12px;
+		letter-spacing:1px;
+		padding:10px;
+		
+	}
+
+	.social-icon{
+		padding-top:10px;
+		
+	}
+	.icon-outline{
+		float:left;
+		border-radius:50%;
+	   height:25px;
+	   width:25px;
+	   padding:5px;
+	    background:linear-gradient(red,black,black);
+	   transition:box-shadow .6s;
+	    
+	}
+	.icon-outline i{
+		font-size:15px;
+		
+	}
+	.social-icon a{
+		color:white;
+
+	}
+	.icon-outline:hover{
+	   box-shadow:0px 0px 20px 3px #e08708;
+	}
+	.icons{
+	  
+	  min-height:50px;
+	  width:63%;
+	  margin:auto;
+	  
+	}
+	
+	.heading{
+
+		text-align:center;
+		font-weight:bold;
+		font-size:30px;
+	}
+	.about-box i{
+		color:#969ace;
+		font-size:45px;
+	}
+	.about-box h3{
+		font-size:15px;
+		
+	}
+	.about-box p{
+		font-size:12px;
+		
+	}
+	
+	.photo-box{
+	    margin:auto;
+		height:150px;
+		width:150px;
+		background:linear-gradient(white,black);
+		border-radius:100%;
+	}
+	.photo{
+	    margin-left:10px;
+		padding:5px;
+		height:150px;
+		width:150px;
+		background-color:white;
+		border-radius:100%;
+		 box-shadow:7px 0px 11px -4px black;
+	}
+	.about-text{
+		font-size:12px;
+		text-align:center;
+		letter-spacing:1px;
+		margin-top:20px;
+		font-weight:bold;
+		color:#48495b;
+		
+	}
+	.course
+	{	float:right;
+		width:25%;
+		background-color:#626263;
+		height:30px;
+		color:white;
+		line-height:30px;
+		font-size:12px;
+		border-radius:8%;
+		
+	}
+	.progressbar{
+		float:right;
+		padding:3px;
+		height:30px;
+		width:70%;
+		background-color:#f4f5fc;
+
+	}
+	
+	.progress
+	{	
+		background-color:#626263;
+		height:23px;
+		color:white;
+	}
+	.resume-btn button{
+		font-size:12px;
+		letter-spacing:1px;
+	}
+	.section-head h1{
+		font-size:40px;
+		color:white;
+	}
+	.box h3{
+		font-size:20px;
+		
+	}
+	.box{
+		padding:20px;
+	}
+	.project{
+		background-color:skyblue;
+		height:200px;
+		border-radius:10px;
+	}
+	
+.input-box{
+		padding-left:40px !important;
+		padding-right:40px !important;
+}
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+	
+	.section-background{
+	     min-height:500px;
+	     background-image:url("image/1.jpg");
+		 background-position:center;
+		 background-size:cover;
+	 }
+	  .back-color{
+	   min-height:500px;
+	   background-color:rgba(11,7,22,0.7);
+	 }
+	
+	
+	nav ul{
+		 text-align:center;
+		 width:100%;
+		 border-bottom-left-radius:15px;
+		 border-bottom-right-radius:15px;
+		 float:none;
+		 padding:0px;
+		 background-color:rgba(11,7,22,0.7);
+		 display:none;
+		 
+	 }
+	 nav ul li{
+		 
+		display:block;
+		border-bottom:1px dotted;
+		transition:background-color 1s;
+		 
+	 }
+	  nav ul li:hover{
+		 
+		background-color:green;
+	 
+	 }
+	  
+	 nav ul li a:hover{
+		 
+		color:white;
+				 
+		 
+	 }
+	
+	.active{
+		display:block;
+	}
+	.heading-text{
+	   padding-top:10px;
+	  
+	}
+	.heading-text h1{
+	   font-size:35px;
+	    color:#bdbfc1;
+	}
+	.head p{
+	   font-size:15px;
+	   font-weight:bold;
+	   color:#b7e5e5;
+	   letter-spacing:1px;
+	}
+	.icon-outline{
+		float:left;
+		border-radius:50%;
+	   height:45px;
+	   width:45px;
+	   padding:10px;
+	    background:linear-gradient(red,black,black);
+	   transition:box-shadow .6s;
+	    
+	}
+	.icon-outline i{
+		font-size:25px;
+		
+	}
+	.social-icon a{
+		color:white;
+
+	}
+	.icon-outline:hover{
+	   box-shadow:0px 0px 20px 3px #e08708;
+	}
+	.icons{
+	  
+	  min-height:50px;
+	  width:50%;
+	  margin:auto;
+	 
+	  
+	}
+	
+	 .toggle{
+		 display:block;
+		 cursor:pointer;
+	 }
+	 
+	.heading{
+
+		text-align:center;
+		font-weight:bold;
+		font-size:40px;
+	}
+	.about-box i{
+		color:#969ace;
+		font-size:55px;
+	}
+	.about-box h3{
+		font-size:16px;
+		
+	}
+	.about-box p{
+		font-size:12px;
+		
+	}
+	.photo-box{
+	    margin:auto;
+		height:180px;
+		width:180px;
+		background:linear-gradient(white,black);
+		border-radius:100%;
+	}
+	.photo{
+	    margin-left:15px;
+		padding:5px;
+		height:180px;
+		width:180px;
+		background-color:white;
+		border-radius:100%;
+		 box-shadow:7px 0px 11px -4px black;
+	}
+	.about-text{
+		font-size:12px;
+		text-align:center;
+		letter-spacing:1px;
+		margin-top:20px;
+		font-weight:bold;
+		color:#48495b;
+		
+	}
+	.course
+	{	float:right;
+		width:20%;
+		background-color:#626263;
+		height:30px;
+		color:white;
+		line-height:30px;
+		font-size:12px;
+		border-radius:8%;
+		
+	}
+	.progressbar{
+		float:right;
+		padding:3px;
+		height:30px;
+		width:65%;
+		background-color:#f4f5fc;
+
+	}
+	
+	.progress
+	{	
+		background-color:#626263;
+		height:23px;
+		color:white;
+	}
+	.resume-btn button{
+		font-size:12px;
+		letter-spacing:1px;
+	}
+	.section-head h1{
+		font-size:35px;
+		
+	}
+	.box h3{
+		font-size:20px;
+		
+	}
+	
+}
