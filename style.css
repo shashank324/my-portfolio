@@ -145,7 +145,8 @@
 		 box-shadow:7px 0px 11px -4px black;
 	}
 	.myimg{
-		
+		height:240px;
+		width:240px;
 		border-radius:100%;
 	}
 	.about-text{
@@ -459,6 +460,11 @@
 		border-radius:100%;
 		 box-shadow:7px 0px 11px -4px black;
 	}
+	.myimg{
+		height:140px;
+		width:140px;
+		border-radius:100%;
+	}
 	.about-text{
 		font-size:12px;
 		text-align:center;
@@ -652,6 +658,11 @@
 		background-color:white;
 		border-radius:100%;
 		 box-shadow:7px 0px 11px -4px black;
+	}
+	.myimg{
+		height:180px;
+		width:180px;
+		border-radius:100%;
 	}
 	.about-text{
 		font-size:12px;
